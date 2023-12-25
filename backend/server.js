@@ -2,6 +2,8 @@ const express = require("express")
 const server = express()
 const path = require("path")
 const port = 3000
+const data = require("./paintings.js")
+const paintings = require("./paintings.js")
 
 // Middleware
 server.use(express.urlencoded({ extended: false }))
@@ -13,8 +15,9 @@ server.set("views", path.join(__dirname, "views"))
 
 // Routes
 server.get("/", (req, res) => {
-  //   res.send("this is the home page!")
-  res.render("home")
+  res.render("home", {
+    paintings: paintings
+  })
 })
 
 server.listen(port, () => {
