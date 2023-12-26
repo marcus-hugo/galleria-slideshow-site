@@ -1,5 +1,9 @@
-<li class="card">
-  <img src="<%= painting.images.thumbnail %>" alt="<%= painting.name %>" />
+<li class="card grid-item">
+  <div class="card__image-container">
+    <img src="<%= painting.images.thumbnail %>" alt="<%= painting.name %>" />
+    <div class="card__image-overlay"></div>
+  </div>
+
   <div class="card__text">
     <h2 class="card__title"><%= painting.name %></h2>
     <h3 class="card__sub-title"><%= painting.artist.name %></h3>
