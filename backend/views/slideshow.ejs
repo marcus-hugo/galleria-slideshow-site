@@ -1,0 +1,12 @@
+<%- include("includes/head") %> <%- include("includes/header") %>
+<article class="slide-container">
+  <img class="slide__img" src="<%- painting.images.gallery %>" alt="<%= painting.name %>" />
+  <div class="slide__title-container">
+    <h2 class="slide__title"><%= painting.name %></h2>
+    <h3 class="slide__sub-title"><%= painting.artist.name %></h3>
+  </div>
+  <img class="slide__hero-img" src="<%- painting.artist.image %>" alt="" />
+  <p class="slide__text"><%= painting.description %></p>
+  <a class="slide__link" href="">GO TO SOURCE</a>
+</article>
+<%- include("includes/controls") %> <%- include("includes/footer") %>

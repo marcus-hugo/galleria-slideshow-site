@@ -2,7 +2,7 @@ const express = require("express")
 const server = express()
 const path = require("path")
 const port = 3000
-const data = require("./paintings.js")
+
 const paintings = require("./paintings.js")
 
 // Middleware
@@ -17,6 +17,12 @@ server.set("views", path.join(__dirname, "views"))
 server.get("/", (req, res) => {
   res.render("home", {
     paintings: paintings
+  })
+})
+
+server.get("/starrynights", (req, res) => {
+  res.render("slideshow", {
+    painting: paintings[0]
   })
 })
 
