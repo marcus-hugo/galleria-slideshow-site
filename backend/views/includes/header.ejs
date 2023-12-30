@@ -1,4 +1,8 @@
 <header class="header">
   <h1 class="header__title">galleria.</h1>
+  <% if (start === false) { %>
   <a class="header__text" href="/paintings/0">Start Slideshow</a>
+  <% } %> <% if (start === true) { %>
+  <a class="header__text" href="/">Stop Slideshow</a>
+  <% } %>
 </header>

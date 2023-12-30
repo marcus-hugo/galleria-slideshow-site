@@ -4,6 +4,7 @@ const path = require("path")
 const port = 3000
 
 const paintings = require("./paintings.js")
+let start
 
 // Middleware
 server.use(express.urlencoded({ extended: false }))
@@ -15,17 +16,22 @@ server.set("views", path.join(__dirname, "views"))
 
 // Routes
 server.get("/", (req, res) => {
+  start = false
+
   res.render("home", {
-    paintings: paintings
+    paintings: paintings,
+    start: start
   })
 })
 
 server.get("/paintings/:id", (req, res) => {
   let index = parseInt(req.params.id)
+  start = true
 
   res.render("slideshow", {
     paintings: paintings,
-    index: index
+    index: index,
+    start: start
   })
 })
 
