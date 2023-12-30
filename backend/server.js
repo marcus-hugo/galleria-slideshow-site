@@ -20,9 +20,12 @@ server.get("/", (req, res) => {
   })
 })
 
-server.get("/starrynights", (req, res) => {
+server.get("/paintings/:id", (req, res) => {
+  let index = parseInt(req.params.id)
+
   res.render("slideshow", {
-    painting: paintings[0]
+    paintings: paintings,
+    index: index
   })
 })
 

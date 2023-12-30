@@ -1,11 +1,17 @@
 <div class="progress-bar"></div>
 <div class="controls-container">
   <div class="controls__text-container">
-    <h4 class="controls__title"><%= painting.name %></h4>
-    <p class="controls__text"><%= painting.artist.name %></p>
+    <h4 class="controls__title"><%= paintings[index].name %></h4>
+    <p class="controls__text"><%= paintings[index].artist.name %></p>
   </div>
   <div class="controls__btns">
-    <a class="controls__btn-back" href=""><img class="controls__btn-back-img" src="<%= "/images/shared/icon-back-button.svg" %>" alt="back" /></a>
-    <a class="controls__btn-next" href=""><img class="controls__btn-next-img" src="<%= "/images/shared/icon-next-button.svg" %>" alt="next" /></a>
+    <% if (index === 0) { %>
+    <a class="controls__btn-next" href="/paintings/<%= index+1 %>"><img class="controls__btn-next-img" src="<%= "/images/shared/icon-next-button.svg" %>" alt="next" /></a>
+    <% } %> <% if (index >= 1 && index <= 13) { %>
+    <a class="controls__btn-back" href="/paintings/<%= index-1 %>"><img class="controls__btn-back-img" src="<%= "/images/shared/icon-back-button.svg" %>" alt="back" /></a>
+    <a class="controls__btn-next" href="/paintings/<%= index+1 %>"><img class="controls__btn-next-img" src="<%= "/images/shared/icon-next-button.svg" %>" alt="next" /></a>
+    <% } %> <% if (index === 14) { %>
+    <a class="controls__btn-back" href="/paintings/<%= index-1 %>"><img class="controls__btn-back-img" src="<%= "/images/shared/icon-back-button.svg" %>" alt="back" /></a>
+    <% } %>
   </div>
 </div>
