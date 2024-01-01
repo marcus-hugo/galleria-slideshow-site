@@ -3,11 +3,16 @@
   align-items: center;
   justify-content: space-between;
 }
-
-.progress-bar {
+.progress-bar-wrapper {
   height: 2px;
   width: 100%;
   background: var(--grey-200);
+}
+
+.progress-bar {
+  height: 2px;
+  // width: 100%;
+  background: var(--clr-dark);
 }
 
 .controls__text-container {
