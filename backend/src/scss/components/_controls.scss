@@ -21,6 +21,10 @@
   color: var(--clr-dark);
   font-size: 0.875rem;
   font-weight: 700;
+
+  @media (min-width: 768px) {
+    font-size: 1.125rem;
+  }
 }
 
 .controls__text {
@@ -28,6 +32,10 @@
   font-size: 0.625rem;
   font-weight: 400;
   filter: opacity(0.7528);
+
+  @media (min-width: 768px) {
+    font-size: 0.8125rem;
+  }
 }
 
 .controls__btns {
@@ -39,4 +47,8 @@
 .controls__btn-back-img,
 .controls__btn-next-img {
   height: 16px;
+
+  @media (min-width: 768px) {
+    height: 24px;
+  }
 }
