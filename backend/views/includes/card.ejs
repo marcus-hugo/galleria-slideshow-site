@@ -5,7 +5,9 @@
   </div>
 
   <div class="card__text">
-    <h2 class="card__title"><%= painting.name %></h2>
+    <h2 class="card__title">
+      <a class="card__title-link" href="/paintings/<%= painting.id - 1 %>"> <%= painting.name %> </a>
+    </h2>
     <h3 class="card__sub-title"><%= painting.artist.name %></h3>
   </div>
 </li>

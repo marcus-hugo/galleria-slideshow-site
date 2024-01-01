@@ -167,7 +167,7 @@ module.exports = [
         small: "/images/lady-with-an-ermine/hero-small.jpg",
         large: "/images/lady-with-an-ermine/hero-large.jpg"
       },
-      gallery: "./images/lady-with-an-ermine/gallery.jpg"
+      gallery: "/images/lady-with-an-ermine/gallery.jpg"
     }
   },
   {
