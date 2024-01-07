@@ -1,33 +1,36 @@
-<%- include("includes/head") %>
-<body>
-  <%- include("includes/header") %>
-  <main>
-    <article class="slide-container">
-      <!-- <div class="test"> -->
-      <button class="slide__img-view-btn"><img class="view-icon" src= "<%= "/images/shared/icon-view-image.svg" %>" alt="view image">View Image</button>
-      <%- include("includes/modal") %>
-      <div class="slide__img-container">
-        <img class="slide__img" src="<%- paintings[index].images.hero.large %>" alt="<%= paintings[index].name %>" />
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("includes/head") %>
+  <body>
+    <%- include("includes/header") %>
+    <main>
+      <article class="slide-container">
+        <!-- <div class="test"> -->
+        <button class="slide__img-view-btn"><img aria-hidden="true" class="view-icon" src= "<%= "/images/shared/icon-view-image.svg" %>" alt="view image">View Image</button>
+        <%- include("includes/modal") %>
+        <div class="slide__img-container">
+          <img class="slide__img" src="<%- paintings[index].images.hero.large %>" alt="<%= paintings[index].name %>" />
+        </div>
 
-      <div class="slide__title-container">
-        <h2 class="slide__title"><%= paintings[index].name %></h2>
-        <h3 class="slide__sub-title"><%= paintings[index].artist.name %></h3>
-      </div>
-      <img class="slide__hero-img" src="<%- paintings[index].artist.image %>" alt="" />
-      <!-- </div> -->
+        <div class="slide__title-container">
+          <h2 class="slide__title"><%= paintings[index].name %></h2>
+          <h3 class="slide__sub-title"><%= paintings[index].artist.name %></h3>
+        </div>
+        <img class="slide__hero-img" src="<%- paintings[index].artist.image %>" alt="<%= paintings[index].artist.altText %>" />
+        <!-- </div> -->
 
-      <span class="slide__year-container">
-        <span class="slide__year"><%= paintings[index].year %></span>
-      </span>
+        <span class="slide__year-container">
+          <span class="slide__year"><%= paintings[index].year %></span>
+        </span>
 
-      <p class="slide__text"><%= paintings[index].description %></p>
+        <p class="slide__text"><%= paintings[index].description %></p>
 
-      <a class="slide__link" target="_blank" rel="noopener noreferrer" href="<%= paintings[index].source %>">GO TO SOURCE</a>
-    </article>
-    <%- include("includes/controls") %>
-  </main>
-  <%- include("includes/footer") %>
-  <script src="/js/modal.js"></script>
-  <script src="/js/progressBar.js"></script>
-</body>
+        <a class="slide__link" target="_blank" rel="noopener noreferrer" href="<%= paintings[index].source %>">GO TO SOURCE</a>
+      </article>
+      <%- include("includes/controls") %>
+    </main>
+    <%- include("includes/footer") %>
+    <script src="/js/modal.js"></script>
+    <script src="/js/progressBar.js"></script>
+  </body>
+</html>

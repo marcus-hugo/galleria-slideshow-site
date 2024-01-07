@@ -7,6 +7,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/The_Starry_Night",
     artist: {
       image: "/images/starry-night/artist.jpg",
+      altText: "portrait of Vincent Van Gogh",
       name: "Vincent Van Gogh"
     },
     images: {
@@ -26,6 +27,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring",
     artist: {
       image: "/images/girl-with-pearl-earring/artist.jpg",
+      altText: "portrait of Johannes Vermeer",
       name: "Johannes Vermeer"
     },
     images: {
@@ -45,6 +47,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/Guernica_(Picasso)",
     artist: {
       image: "/images/guernica/artist.jpg",
+      altText: "portrait of Pablo Picasso",
       name: "Pablo Picasso"
     },
     images: {
@@ -64,6 +67,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/Penitent_Magdalene_(Artemisia_Gentileschi)",
     artist: {
       image: "/images/penitent-magdalene/artist.jpg",
+      altText: "portrait of Artemisia Gentileschi",
       name: "Artemisia Gentileschi"
     },
     images: {
@@ -83,6 +87,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/The_Storm_on_the_Sea_of_Galilee",
     artist: {
       image: "/images/the-storm-on-the-sea-of-galilee/artist.jpg",
+      altText: "portrait of Rembrandt",
       name: "Rembrandt"
     },
     images: {
@@ -102,6 +107,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
     artist: {
       image: "/images/the-great-wave-off-kanagawa/artist.jpg",
+      altText: "portrait of Hokusai",
       name: "Hokusai"
     },
     images: {
@@ -121,6 +127,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/Van_Gogh_self-portrait_(1889)",
     artist: {
       image: "/images/van-gogh-self-portrait/artist.jpg",
+      altText: "portrait of Vincent Van Gogh",
       name: "Vincent Van Gogh"
     },
     images: {
@@ -140,6 +147,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/The_Sleeping_Gypsy",
     artist: {
       image: "/images/the-sleeping-gypsy/artist.jpg",
+      altText: "portrait of Henri Rousseau",
       name: "Henri Rousseau"
     },
     images: {
@@ -159,6 +167,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/Lady_with_an_Ermine",
     artist: {
       image: "/images/lady-with-an-ermine/artist.jpg",
+      altText: "portrait of Leonardo da Vinci",
       name: "Leonardo da Vinci"
     },
     images: {
@@ -178,6 +187,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/The_Night_Caf%C3%A9",
     artist: {
       image: "/images/the-night-cafe/artist.jpg",
+      altText: "portrait of Vincent Van Gogh",
       name: "Vincent Van Gogh"
     },
     images: {
@@ -197,6 +207,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/The_Basket_of_Apples",
     artist: {
       image: "/images/the-basket-of-apples/artist.jpg",
+      altText: "portrait of Paul Cézanne",
       name: "Paul Cézanne"
     },
     images: {
@@ -216,6 +227,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/The_Boy_in_the_Red_Vest",
     artist: {
       image: "/images/the-boy-in-the-red-vest/artist.jpg",
+      altText: "portrait of Paul Cézanne",
       name: "Paul Cézanne"
     },
     images: {
@@ -235,6 +247,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/Arnolfini_Portrait",
     artist: {
       image: "/images/arnolfini-portrait/artist.jpg",
+      altText: "portrait of Jan van Eyck",
       name: "Jan van Eyck"
     },
     images: {
@@ -254,6 +267,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/Mona_Lisa",
     artist: {
       image: "/images/mona-lisa/artist.jpg",
+      altText: "portrait of Leonardo da Vinci",
       name: "Leonardo da Vinci"
     },
     images: {
@@ -273,6 +287,7 @@ module.exports = [
     source: "https://en.wikipedia.org/wiki/The_Swing_(Fragonard)",
     artist: {
       image: "/images/the-swing/artist.jpg",
+      altText: "portrait of Jean-Honoré Fragonard",
       name: "Jean-Honoré Fragonard"
     },
     images: {

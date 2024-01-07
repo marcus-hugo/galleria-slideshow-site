@@ -1,10 +1,42 @@
-.card {
-  &:hover {
-    cursor: pointer;
+@media (scripting: none) {
+  .cards-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 
+.card {
+  margin: 0.75rem;
+
+  &:focus-within {
+    outline: 2px dashed var(--clr-focus);
+    outline-offset: 5px;
+  }
+
+  &:hover {
     .card__image-overlay {
+      cursor: pointer;
       background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.64) 100%);
     }
+  }
+
+  @media (scripting: none) {
+    &:focus-within {
+      outline: none;
+    }
+
+    &:hover {
+      .card__image-overlay {
+        cursor: default;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.84) 100%);
+      }
+    }
+  }
+
+  &__title-link:focus {
+    text-decoration: underline;
   }
 
   &__title-link:focus-within {
@@ -12,9 +44,9 @@
     outline-offset: 0;
   }
 
-  &:focus-within {
-    outline: 2px dashed var(--clr-focus);
-    outline-offset: 5px;
+  &__title-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
   }
 
   &__image-container {
@@ -37,6 +69,13 @@
     left: -1%;
     color: var(--clr-light);
     padding: 0 0 2rem 2rem;
+  }
+
+  @media (scripting: none) {
+    &__text {
+      position: relative;
+      color: initial;
+    }
   }
 
   &__title {

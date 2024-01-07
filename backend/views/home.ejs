@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <%- include("includes/head.ejs") %>
 
   <body>
     <%- include("includes/header.ejs") %>
     <main>
-      <ul class="grid">
+      <ul class="grid cards-container">
         <% paintings.forEach(function(painting) { %> <%- include("includes/card.ejs", {painting}) %> <% }) %>
       </ul>
     </main>

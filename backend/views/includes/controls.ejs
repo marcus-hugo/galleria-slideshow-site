@@ -9,12 +9,12 @@
   </div>
   <div class="controls__btns">
     <% if (index === 0) { %>
-    <a class="controls__btn-next" href="/paintings/<%= index+1 %>"><img class="controls__btn-next-img" src="<%= "/images/shared/icon-next-button.svg" %>" alt="next" /></a>
+    <a aria-label="next slide" class="controls__btn-next" href="/paintings/<%= index+1 %>"><img aria-hidden="true" class="controls__btn-next-img" src="<%= "/images/shared/icon-next-button.svg" %>" alt="next" /></a>
     <% } %> <% if (index >= 1 && index <= 13) { %>
-    <a class="controls__btn-back" href="/paintings/<%= index-1 %>"><img class="controls__btn-back-img" src="<%= "/images/shared/icon-back-button.svg" %>" alt="back" /></a>
-    <a class="controls__btn-next" href="/paintings/<%= index+1 %>"><img class="controls__btn-next-img" src="<%= "/images/shared/icon-next-button.svg" %>" alt="next" /></a>
+    <a aria-label="previous slide" class="controls__btn-back" href="/paintings/<%= index-1 %>"><img aria-hidden="true" class="controls__btn-back-img" src="<%= "/images/shared/icon-back-button.svg" %>" alt="back" /></a>
+    <a aria-label="next slide" class="controls__btn-next" href="/paintings/<%= index+1 %>"><img aria-hidden="true" class="controls__btn-next-img" src="<%= "/images/shared/icon-next-button.svg" %>" alt="next" /></a>
     <% } %> <% if (index === 14) { %>
-    <a class="controls__btn-back" href="/paintings/<%= index-1 %>"><img class="controls__btn-back-img" src="<%= "/images/shared/icon-back-button.svg" %>" alt="back" /></a>
+    <a aria-label="previous slide" class="controls__btn-back" href="/paintings/<%= index-1 %>"><img aria-hidden="true" class="controls__btn-back-img" src="<%= "/images/shared/icon-back-button.svg" %>" alt="back" /></a>
     <% } %>
   </div>
 </div>
