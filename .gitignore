@@ -1,6 +1,3 @@
 node_modules
-*.sketch
-*.fig
-*.xd
+.env
 .DS_Store
-.prettierignore
