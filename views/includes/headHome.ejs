@@ -3,8 +3,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
-  <link rel="stylesheet" href="/styles/globals.min.css" />
-  <link rel="stylesheet" href="/styles/card.min.css" />
+  <link rel="preload" href="/styles/globals.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="/styles/globals.min.css" /></noscript>
+  <link rel="preload" href="/styles/card.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="/styles/card.min.css" /></noscript>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
