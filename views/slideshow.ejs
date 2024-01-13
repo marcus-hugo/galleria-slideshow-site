@@ -9,14 +9,14 @@
         <button class="slide__img-view-btn"><img aria-hidden="true" class="view-icon" src= "<%= "/images/shared/icon-view-image.svg" %>" alt="view image">View Image</button>
         <%- include("includes/modal") %>
         <div class="slide__img-container">
-          <img class="slide__img" src="<%- paintings[index].images.hero.large %>" alt="<%= paintings[index].name %>" />
+          <img class="slide__img" src="<%- paintings[index].images.hero.large %>" alt="<%= paintings[index].name %>" width="950" height="1120" />
         </div>
 
         <div class="slide__title-container">
           <h2 class="slide__title"><%= paintings[index].name %></h2>
           <h3 class="slide__sub-title"><%= paintings[index].artist.name %></h3>
         </div>
-        <img class="slide__hero-img" src="<%- paintings[index].artist.image %>" alt="<%= paintings[index].artist.altText %>" />
+        <img class="slide__hero-img" src="<%- paintings[index].artist.image %>" alt="<%= paintings[index].artist.altText %>" width="128" height="128" />
         <!-- </div> -->
 
         <span class="slide__year-container">

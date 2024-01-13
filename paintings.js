@@ -12,9 +12,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/starry-night/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "250"
+      },
       hero: {
         small: "/images/starry-night/hero-small.jpg",
-        large: "/images/starry-night/hero-large.jpg"
+        large: "/images/starry-night/hero-large.jpg",
+        largeSize: {
+          width: "917",
+          height: "712"
+        }
       },
       gallery: "/images/starry-night/gallery.jpg"
     }
@@ -32,9 +40,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/girl-with-pearl-earring/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "400"
+      },
       hero: {
         small: "/images/girl-with-pearl-earring/hero-small.jpg",
-        large: "/images/girl-with-pearl-earring/hero-large.jpg"
+        large: "/images/girl-with-pearl-earring/hero-large.jpg",
+        largeSize: {
+          width: "519",
+          height: "712"
+        }
       },
       gallery: "/images/girl-with-pearl-earring/gallery.jpg"
     }
@@ -52,9 +68,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/guernica/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "285"
+      },
       hero: {
         small: "/images/guernica/hero-small.jpg",
-        large: "/images/guernica/hero-large.jpg"
+        large: "/images/guernica/hero-large.jpg",
+        largeSize: {
+          width: "1253",
+          height: "712"
+        }
       },
       gallery: "/images/guernica/gallery.jpg"
     }
@@ -72,9 +96,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/penitent-magdalene/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "250"
+      },
       hero: {
         small: "/images/penitent-magdalene/hero-small.jpg",
-        large: "/images/penitent-magdalene/hero-large.jpg"
+        large: "/images/penitent-magdalene/hero-large.jpg",
+        largeSize: {
+          width: "573",
+          height: "712"
+        }
       },
       gallery: "/images/penitent-magdalene/gallery.jpg"
     }
@@ -92,9 +124,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/the-storm-on-the-sea-of-galilee/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "340"
+      },
       hero: {
         small: "/images/the-storm-on-the-sea-of-galilee/hero-small.jpg",
-        large: "/images/the-storm-on-the-sea-of-galilee/hero-large.jpg"
+        large: "/images/the-storm-on-the-sea-of-galilee/hero-large.jpg",
+        largeSize: {
+          width: "597",
+          height: "712"
+        }
       },
       gallery: "/images/the-storm-on-the-sea-of-galilee/gallery.jpg"
     }
@@ -112,9 +152,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/the-great-wave-off-kanagawa/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "280"
+      },
       hero: {
         small: "/images/the-great-wave-off-kanagawa/hero-small.jpg",
-        large: "/images/the-great-wave-off-kanagawa/hero-large.jpg"
+        large: "/images/the-great-wave-off-kanagawa/hero-large.jpg",
+        largeSize: {
+          width: "809",
+          height: "712"
+        }
       },
       gallery: "/images/the-great-wave-off-kanagawa/gallery.jpg"
     }
@@ -132,9 +180,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/van-gogh-self-portrait/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "500"
+      },
       hero: {
         small: "/images/van-gogh-self-portrait/hero-small.jpg",
-        large: "/images/van-gogh-self-portrait/hero-large.jpg"
+        large: "/images/van-gogh-self-portrait/hero-large.jpg",
+        largeSize: {
+          width: "597",
+          height: "712"
+        }
       },
       gallery: "/images/van-gogh-self-portrait/gallery.jpg"
     }
@@ -152,9 +208,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/the-sleeping-gypsy/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "250"
+      },
       hero: {
         small: "/images/the-sleeping-gypsy/hero-small.jpg",
-        large: "/images/the-sleeping-gypsy/hero-large.jpg"
+        large: "/images/the-sleeping-gypsy/hero-large.jpg",
+        largeSize: {
+          width: "1107",
+          height: "712"
+        }
       },
       gallery: "/images/the-sleeping-gypsy/gallery.jpg"
     }
@@ -172,9 +236,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/lady-with-an-ermine/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "420"
+      },
       hero: {
         small: "/images/lady-with-an-ermine/hero-small.jpg",
-        large: "/images/lady-with-an-ermine/hero-large.jpg"
+        large: "/images/lady-with-an-ermine/hero-large.jpg",
+        largeSize: {
+          width: "537",
+          height: "712"
+        }
       },
       gallery: "/images/lady-with-an-ermine/gallery.jpg"
     }
@@ -192,9 +264,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/the-night-cafe/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "260"
+      },
       hero: {
         small: "/images/the-night-cafe/hero-small.jpg",
-        large: "/images/the-night-cafe/hero-large.jpg"
+        large: "/images/the-night-cafe/hero-large.jpg",
+        largeSize: {
+          width: "947",
+          height: "712"
+        }
       },
       gallery: "/images/the-night-cafe/gallery.jpg"
     }
@@ -212,9 +292,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/the-basket-of-apples/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "430"
+      },
       hero: {
         small: "/images/the-basket-of-apples/hero-small.jpg",
-        large: "/images/the-basket-of-apples/hero-large.jpg"
+        large: "/images/the-basket-of-apples/hero-large.jpg",
+        largeSize: {
+          width: "869",
+          height: "712"
+        }
       },
       gallery: "/images/the-basket-of-apples/gallery.jpg"
     }
@@ -232,9 +320,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/the-boy-in-the-red-vest/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "260"
+      },
       hero: {
         small: "/images/the-boy-in-the-red-vest/hero-small.jpg",
-        large: "/images/the-boy-in-the-red-vest/hero-large.jpg"
+        large: "/images/the-boy-in-the-red-vest/hero-large.jpg",
+        largeSize: {
+          width: "597",
+          height: "712"
+        }
       },
       gallery: "/images/the-boy-in-the-red-vest/gallery.jpg"
     }
@@ -252,9 +348,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/arnolfini-portrait/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "330"
+      },
       hero: {
         small: "/images/arnolfini-portrait/hero-small.jpg",
-        large: "/images/arnolfini-portrait/hero-large.jpg"
+        large: "/images/arnolfini-portrait/hero-large.jpg",
+        largeSize: {
+          width: "509",
+          height: "712"
+        }
       },
       gallery: "/images/arnolfini-portrait/gallery.jpg"
     }
@@ -272,9 +376,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/mona-lisa/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "526"
+      },
       hero: {
         small: "/images/mona-lisa/hero-small.jpg",
-        large: "/images/mona-lisa/hero-large.jpg"
+        large: "/images/mona-lisa/hero-large.jpg",
+        largeSize: {
+          width: "509",
+          height: "712"
+        }
       },
       gallery: "/images/mona-lisa/gallery.jpg"
     }
@@ -292,9 +404,17 @@ module.exports = [
     },
     images: {
       thumbnail: "/images/the-swing/thumbnail.jpg",
+      thumbnailSize: {
+        width: "327",
+        height: "340"
+      },
       hero: {
         small: "/images/the-swing/hero-small.jpg",
-        large: "/images/the-swing/hero-large.jpg"
+        large: "/images/the-swing/hero-large.jpg",
+        largeSize: {
+          width: "585",
+          height: "712"
+        }
       },
       gallery: "/images/the-swing/gallery.jpg"
     }
