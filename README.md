@@ -21,7 +21,7 @@ Create a fullstack application with Node, Express, and EJS to power the backend.
 - CSS `prefers-reduced-motion: reduce` to honor the users system setting.
 - [aria-hidden for non-text purely decorative content](https://www.w3.org/TR/WCAG21/#non-text-content)
 - HTML dialog element for modal to maintain tab order and context of interactivity. To escape the modal the user must click the close button.
-- Accessible cards that when clicked act a link with hover and focus styles. Followed [Heydon Pickering's article](https://inclusive-components.design/cards/).
+- Accessible cards that when clicked act as link with hover and focus styles. Followed [Heydon Pickering's article](https://inclusive-components.design/cards/).
 
 ## For Local Development
 
