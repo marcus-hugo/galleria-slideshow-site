@@ -6,7 +6,7 @@ Create a fullstack application with Node, Express, and EJS to power the backend.
 
 ## Features
 
-- Simple Express server with two routes and error handling.
+- Express server with two routes and error handling.
 - The cards and slideshow contents are dynamically rendered with EJS.
 - The slideshow can be started or stopped.
 - Next and Previous buttons are links that increment/decrement the params in the URL path. So each slide is a seperate HTML page.
