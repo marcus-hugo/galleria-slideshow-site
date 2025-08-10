@@ -1,6 +1,3 @@
-import Masonry from "masonry-layout";
-import imagesLoaded from "imagesloaded";
-
 const elem = document.querySelector(".grid")
 
 const msnry = new Masonry(elem, {
@@ -13,6 +10,6 @@ const msnry = new Masonry(elem, {
   transitionDuration: 0
 })
 
-imagesLoaded(elem, () => {
+imagesLoaded(elem).on("progress", () => {
   msnry.layout();
 })
